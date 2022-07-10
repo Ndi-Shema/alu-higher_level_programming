@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+offset = -32
+
+
 def uppercase(stru):
     i = 0
     while i < len(stru):
