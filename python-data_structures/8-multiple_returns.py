@@ -6,6 +6,7 @@ def multiple_returns(sentence):
     d = []
     e = []
     x = []
+    y = []
     if a == 0:
         b = list(sentence)
         b.append("None")
@@ -16,4 +17,5 @@ def multiple_returns(sentence):
         d = c.append(sentence[0])
         e = c.append(a)
         x = (c, d)
+        y = tuple(x)
         return x
