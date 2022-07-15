@@ -10,7 +10,7 @@ def multiple_returns(sentence):
     if a == 0:
         b = list(sentence)
         b.append("None")
-        b.append(len(a))
+        b.append(a)
 
     else:
         c = list(sentence)
