@@ -7,7 +7,7 @@ def multiple_returns(sentence):
     e = []
     x = []
     y = []
-    if a == 0:
+    if a < 1:
         b.append("None")
         b.append(a)
 
