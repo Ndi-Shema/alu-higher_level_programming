@@ -15,4 +15,4 @@ def multiple_returns(sentence):
         e = b.append(a)
         x = (d, e)
         y = tuple(x)
-        return x
+        return y
