@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# The square value of all integers of a matrix
+# The square value of all integers of a matrix.
 
 
 def square_matrix_simple(matrix=[]):
