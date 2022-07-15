@@ -2,7 +2,6 @@
 def multiple_returns(sentence):
     a = len(sentence)
     b = []
-    c = []
     d = []
     e = []
     x = []
@@ -12,8 +11,8 @@ def multiple_returns(sentence):
         b.append(a)
 
     else:
-        d = c.append(sentence[0])
-        e = c.append(a)
-        x = (c, d)
+        d = b.append(sentence[0])
+        e = b.append(a)
+        x = (d, e)
         y = tuple(x)
         return x
