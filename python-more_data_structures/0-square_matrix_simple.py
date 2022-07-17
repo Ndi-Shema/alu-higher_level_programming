@@ -9,4 +9,4 @@ def square_matrix_simple(matrix=[]):
         for temp_two in temp_one:
             temp_matrix.append(temp_two**2)
         new_matrix.append(temp_matrix)
-    return 
+    return new_matrix
