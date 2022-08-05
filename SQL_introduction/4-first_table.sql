@@ -1,2 +1,5 @@
--- FULL DESCRIPTION
-SHOW CREATE TABLE first_table;
+-- table called first_table
+CREATE TABLE IF NOT EXISTS first_table (
+	id INT,
+	name VARCHAR(256)
+);
